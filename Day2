@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduction Page</title>
+</head>
+<body>
+
+    <h1>Kavita Jadhav</h1>
+    <hr>
+
+    <p>
+        Hello! My name is Kavita Jadhav.<br>
+        I am a diploma student.<br>
+        I enjoy learning new technologies and building cool projects.<br>
+        In my free time, I like reading books and hiking in nature.
+    </p>
+
+</body>
+</html>

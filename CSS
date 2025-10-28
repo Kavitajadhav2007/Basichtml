@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> Revision</title>
+
+        <!-- internal css -->
+
+        <style>
+
+            h1{
+                color: red;
+                /* height: 200px; */
+                text-align: center;
+                font-size: 100px;
+            }
+
+            h2{
+                color : darkred;
+                text-align: end;
+                text-decoration: underline;
+            }
+
+            p{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px;
+                line-height: 1.5;
+                width : 400px;
+                background-color: aqua;
+            }
+
+            img
+            {
+                height: 500px;
+            }
+            
+
+        </style>
+
+    </head>
+    <body>
+
+        <h1> Revision Session </h1>
+
+       
+
+        <h2>- William Shakesspear</h2>
+
+        <hr>
+        <p>
+            Lorem ipsum dolor sit amet consectetur <u>adipisicing elit.</u> Suscipit accusantium aspernatur nulla commodi. Dicta sapiente, cumque nisi <strong>empora ratione quae</strong>, molestiae veniam expedita <em>quasi modi officia</em>, ad mollitia neque deleniti ipsam molestias vero quos recusandae facilis ducimus quas quidem magni.
+        </p>
+        <hr>
+
+        <a href="https://www.google.com/?zx=1761457684888&no_sw_cr=1">Google</a>
+
+        <br>
+        <br>
+        <br>
+
+        <img src="https://images.pexels.com/photos/34299175/pexels-photo-34299175.jpeg" alt="teacup">
+
+        <br>
+
+        <marquee behavior="slide" direction="right" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem minus cum quod temporibus ipsa vitae quis reiciendis cupiditate reprehenderit voluptate.</marquee>
+
+
+        <ol>
+
+            <li> Mango</li>
+            <li> Apple</li>
+            <li> Chiku</li>
+            <li> Grapes</li>
+            <li> Papaya</li>
+
+        </ol>
+
+         <ul>
+
+            <li> Mango</li>
+            <li> Apple</li>
+            <li> Chiku</li>
+            <li> Grapes</li>
+            <li> Papaya</li>
+
+        </ul>
+
+
+        <table border="2">
+
+            <tr>
+                <th> Sr.No</th>
+                <th> Name</th>
+                <th> Roll</th>
+                <th> Attendance</th>
+            </tr>
+
+            <tr>
+                <td> 1</td>
+                <td> Ved</td>
+                <td> 46</td>
+                <td> 75</td>
+            </tr>
+
+            <tr>
+                <td> 2</td>
+                <td> Raj</td>
+                <td> 47</td>
+                <td> 78</td>
+            </tr>
+
+            <tr>
+                <td> 3</td>
+                <td> Ramesh</td>
+                <td> 48</td>
+                <td> 70</td>
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>

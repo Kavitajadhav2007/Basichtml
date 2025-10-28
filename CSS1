@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title> Poem </title>
+        <style>
+            h1{
+                color:deeppink;
+                text-align: center;
+                font-size: 80px;
+            }
+            h2{
+                color : purple;
+                text-align: end;
+                font-size: 30px;
+            }
+            p{
+                font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                line-height: 1.8;
+                width : 500px;
+                background-color: lightyellow;
+            }
+            img
+            {
+                height: 400px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1> The Soul Of Tea </h1>
+        <h2>by Aanya Sharma</h2>
+        <hr>
+        <p>
+            In amber light the teapot gleams,
+A keeper of our quiet dreams.
+Each leaf unfurls, a whispered tale,
+Of morning mists and mountain vale.
+<br>
+<br>
+The world may rush, the hours flee,
+Yet peace pours gently, cup to me.
+No crown, no gold, no kingly key—
+Can soothe the soul like humble tea.
+<br>
+<br>
+It warms the heart, it clears the mind,
+A friend both gentle, sweet, and kind.
+Sip by sip, the day feels new—
+Oh, simple tea, life’s purest brew.
+<br>
+<br>
+        </p>
+        <br>
+        <img src="C:\Users\kj216\OneDrive\Desktop\tea.jpeg" alt="Tea Image"
+</body>
+</html>

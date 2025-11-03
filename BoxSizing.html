@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing Example</title>
+    <style>
+        .fixedbox {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 10px;
+            box-sizing: border-box
+            background-color: lightskyblue;
+        }
+        .box {
+            padding: 15px;
+            width: 200px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: lightblue;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="fixedbox">This is fixed box</div>   
+
+    <div class="box">This is no fixed size box </div>
+    
+</body>
+</html>

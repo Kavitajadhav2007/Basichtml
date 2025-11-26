@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision BoxSizing </title>
+
+    <style>
+
+        /* box-sizing: content-box; */
+        .def{
+            width: 200px;
+            padding: 20px;
+            border : 2px solid black ;
+            border-radius: 10px;
+            background-color: lightblue;
+        } 
+/* becomes bigger than 200px   width = content width + padding  + border
+                               200  = within 200 X
+                               200 + 20px + 2px = 222 200
+*/
+        .BoxS{
+            width: 200px;
+            padding: 20px;
+            border : 2px solid black ;
+            border-radius: 10px;
+            background-color: lightblue;
+            box-sizing: border-box;  
+        }
+
+        /* 200px 200 */
+
+
+        .block{
+            background-color: red;
+            
+            height: 200px;
+        }
+
+        .block2{
+            background-color: red;
+            
+            height: 200px;
+        }
+
+        .block3{
+            background-color: red;
+            
+            height: 200px;
+        }
+
+        .subboxes
+        {
+       
+            display: block;
+            background-color: aqua;
+        }
+
+        .block2 .subboxes
+        {
+
+            height: 200px;
+            margin: 20px 20px 20px 20px;
+            display: inline;
+            background-color: aqua;
+        }
+
+        .block4 .subboxes
+        {
+
+            height: 50px;
+            
+            
+            background-color: aqua;
+        }
+
+        .block4{
+            background-color: red;
+            display: flex; 
+            /* flexible */
+            justify-content: space-evenly;
+            align-items: start;
+            flex-direction: row-reverse;
+           height: 400px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+        <div class="def">  Default Boxsizing </div>
+
+        <br>
+        <br>
+
+        <div class="BoxS">  borderBox BoxSizing</div> 
+
+        <div>
+            <h1>
+                 Hello There
+            </h1>
+        </div> 
+
+        <!-- block -->
+        <span> Hello There</span> 
+
+        <!-- inline -->
+
+        <span > Hello There</span>
+
+        <div>
+            <h1>
+                 Hello There
+            </h1>
+        </div>
+        
+        <span> Hello There</span>
+
+
+        <div class="block">
+
+            <div class="subboxes">
+                Box1 
+            </div>
+
+            <div class="subboxes">
+                Box2 
+            </div>
+
+            <div class="subboxes">
+                Box3 
+            </div>
+        </div>
+
+        <br><br>
+        <div class="block2">
+
+            <div class="subboxes">
+                Box1 
+            </div>
+
+            <div class="subboxes">
+                Box2 
+            </div>
+
+            <div class="subboxes">
+                Box3 
+            </div>
+        </div>
+
+
+        <br><br>
+        <div class="block3">
+
+            <div class="subboxes">
+                Box1 
+            </div>
+
+            <div class="subboxes">
+                Box2 
+            </div>
+
+            <div class="subboxes">
+                Box3 
+            </div>
+        </div> 
+
+
+        <br><br>
+        <div class="block4">
+
+            <div class="subboxes">
+                Box1 
+            </div>
+
+            <div class="subboxes">
+                Box2 
+            </div>
+
+            <div class="subboxes">
+                Box3 
+            </div>
+        </div>
+</body>
+</html>

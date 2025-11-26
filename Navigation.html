@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: green;
+        }
+        .parent{
+            background-color: white;
+            display: flex;
+            height: 100px;
+            justify-content: space-around;
+            
+
+        }
+
+        .innerLeftBox
+        {
+            display: flex;
+            align-items: center;
+            width: 800px;
+            justify-content: space-around;
+        }
+
+        .innerRightBox
+        {
+            
+            display: flex;
+            align-items: center;
+           
+        }
+        button{
+            background-color: lightgreen;
+            height: 50px;
+            border-radius: 6px;
+        }
+
+        .group{
+           
+            
+            width: 600px;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+        .logo
+        {
+            height: 50px;
+            width: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+        <div class="parent">
+                <div class="innerLeftBox">
+                        <img class="logo"  src="image.png" alt="">
+                        Mongo Db 
+                        <div class="group">
+                           
+
+                            <ul>
+                                
+                                <li>Products</li>
+                                <li>Resources</li>
+                                <li>Solutions</li>
+                                <li>Company</li>
+                                <li>Pricing</li>
+                                
+
+                            </ul>
+                        </div>
+                </div>
+                
+                <div class="innerRightBox">
+                        <button> Get Started</button>
+                </div>
+        </div>
+
+
+</body>
+</html>

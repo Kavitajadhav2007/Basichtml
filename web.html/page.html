@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amazon-like Nav</title>
+  <style>
+    
+    * {
+       box-sizing: border-box; margin: 0; padding: 0;
+       }
+
+    body
+     { 
+      font-family: system-ui; 
+    }
+
+    /* NAV BAR */
+    .top-nav 
+    {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 12px;
+      align-items: center;
+      padding: 8px 12px;
+      background-color: black; /* amazon dark */
+      color: white;
+    }
+
+
+    /* left: hamburger + logo */
+    .nav-left
+     {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .book 
+    {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+    }
+
+    .lines
+    {
+      width: 18px;
+      height: 2px;
+      background-color:white;
+      box-shadow: 6px white;
+    }
+
+    .mark
+     {
+      font-size: 24px;
+      font-weight: 700;
+      color:orange; /* amazon orange */
+    }
+    .text 
+    {
+      font-size: 14px;
+      opacity: .95;
+    }
+   
+   
+    /* SEARCH area */
+  .search 
+    {
+      display: grid;
+      grid-template-columns: 160px 1fr 48px;
+      gap: 8px;
+      align-items: center;
+    }
+    
+    .select
+     {
+      height: 40px;
+      border: none;
+      padding: 0 8px;
+      border-radius: 4px 0 0 4px;
+      font-size: 13px;
+    }
+
+    .input[type="search"]
+     {
+      height: 40px;
+      padding: 8px 10px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .button
+     {
+      height: 40px;
+      border: none;
+      background:red;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    /* right links: account, orders, cart */
+    .right
+     {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      justify-self: end;
+    }
+
+    .link
+     {
+      display:flex;
+      flex-direction: column;
+      font-size: 12px;
+      text-decoration: none;
+      color: #fff;
+      align-items: flex-start;
+      min-width: 72px;
+    }
+    
+    .cart
+     {
+      display:flex;
+      align-items:center;
+      gap:8px;
+      text-decoration:none;
+      color:#fff;
+      border-left: 1px solid rgba(255,255,255,0.06);
+      padding-left: 12px;
+    }
+
+    .count
+     {
+      background: #f08804;
+      color: #000;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <header class="top-nav" role="navigation">
+    <!-- Left side: menu + logo -->
+    <div class="nav-left">
+      <button class="book" aria-label="Open menu" title="Open menu">
+        <span class="lines" aria-hidden="true"></span>
+      </button>
+      <span class="mark">amazon<span style="color:white">
+        <span class="text">Deliver to Me</span>
+      </div>
+
+      <select id="search-cat" name="category" aria-label="Search category">
+        <option value="all">All</option>
+        <option value="books">Books</option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+
+  
+        <a class="cart" aria-label="Shopping cart">
+        <span class="count" aria-hidden="true">
+        <span class="text">Cart</span>
+      </a>
+
+       </header>
+       </body>
+</html>
+
+      

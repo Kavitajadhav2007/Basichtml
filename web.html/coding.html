@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            display: flex;
+            gap: 20px;
+            background-color: blue;
+            height: auto;
+            padding: 10px;
+        }
+
+        .box
+        {
+            flex: 1;
+            padding: 20px;
+            /* background-color: burlywood; */
+        }
+
+        /* root */
+        html
+        {
+            font-size: 50px;
+        }
+
+        .parent
+        {
+            font-size: 10vw;
+        }
+
+        .Child
+        {
+            /* font-size: 2rem;  */
+            font-size : 2em;  
+            /* parent 20 child = 2 * 20 = 40px */
+            background-color: aqua;
+        }
+
+
+        .Circle
+        {
+            border: 2px black;
+            background-color: brown;
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+        }
+
+        @media (max-width : 600px)
+        {
+            .container{
+                flex-direction: column;
+
+            }
+
+            .box
+            {
+                background-color: azure;
+            }
+        }
+
+        @media (max-width : 768px)
+        {
+            .container{
+                flex-direction: column;
+
+            }
+
+            .box
+            {
+                background-color:aquamarine;
+            }
+        }
+
+        
+        @media (max-width : 1024px)
+        {
+            
+
+            .box
+            {
+                background-color:aqua;
+            }
+        }
+
+        @media (max-width : 1200px)
+        {
+           
+
+            .box
+            {
+                background-color:cadetblue;
+            }
+        }
+
+
+
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+    <div class="box">
+                BOX 1
+     </div>
+
+            <div class="box">
+                BOX 2
+            </div>
+
+            <div class="box">
+                BOX 3
+            </div>
+
+
+
+            
+
+
+    </div>
+
+
+
+    <br>
+    <br>
+
+
+    <div class="parent">
+        Parent
+        <div class="Child">
+
+            Child
+
+        </div>
+
+    </div>
+
+     <div class="Circle">
+                Circle
+            </div> 
+
+</body>
+</html>
+
+
+
+
+<!-- 
+    ABSOLUTE UNITS
+    px - pixels 
+    cm - centimeters
+    mm - 
+    in - 
+    pt - points (1/72 inch)
+    pc - picas (1pc = 12pt)    
+
+    RELATIVE UNITS
+    
+    
+    % 
+    em parent
+    rem root (html)
+    vh 
+    vw 
+    fr
+
+
+-->

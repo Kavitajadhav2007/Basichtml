@@ -1,0 +1,84 @@
+.parent
+{
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box
+{
+    padding-top: 10px;
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: width 5s ease , background-color 3s;
+}
+
+
+.box:hover{
+    width: 700px;
+    background-color: red;
+}
+
+
+/* ball animation */
+
+
+.ball
+{
+    background-color: burlywood;
+    width: 60px;
+    height: 60px ;
+    border-radius: 50%;
+    animation : bounce 5s infinite ease-in-out;
+}
+
+
+
+
+/* defines the animation named bounce  */
+@keyframes bounce {
+        50%{transform: translateY(150px);}
+        75%{transform: translateY(225px);}
+        90%{transform: translateY(275px);}
+        95%{transform: translateY(290px);} 
+
+    
+}
+
+
+
+.loading
+{
+    
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    /* background-color: crimson; */
+    animation : spin 3s linear infinite;
+}
+
+@keyframes spin{
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.outerLoading
+{
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingIcon
+{
+    height: 60px;
+    width: 60px;
+}

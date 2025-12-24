@@ -1,0 +1,28 @@
+.projects{
+    display:flex;
+    gap:10px;
+}
+
+.p1{
+   background-color: aliceblue;
+   padding: 10px;
+   text-align: center;
+}
+.p2{
+ background-color: aliceblue;
+   padding: 10px;
+   text-align: center;
+}
+.p3{
+     background-color: aliceblue;
+   padding: 10px;
+   text-align: center;
+}
+.contact button{
+    background-color: blue;
+    color: white;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,62 @@
+.loading
+{
+    
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    /* background-color: crimson; */
+    animation : spin 3s linear infinite;
+}
+
+@keyframes spin{
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.outerLoading
+{
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadingIcon
+{
+    height: 60px;
+    width: 60px;
+}
+
+.container
+{
+    width: 100px;
+  height: 25px;
+
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+    
+.box
+{
+    width: 0%;
+    height: 5%;
+    border: 3px solid black;
+  border-radius: 5px;
+    background-color: lightgray;
+  animation: fillBar 5s infinite linear;
+}
+
+
+
+
+@keyframes fillBar{
+
+    
+    0% { width: 0%; }
+    100% { width: 10%; }
+}

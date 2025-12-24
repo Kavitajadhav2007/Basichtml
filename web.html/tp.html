@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.loader-container {
+  width: 100px;
+  height: 25px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.loader-fill {
+  width: 0%;
+  height: 100%;
+  background-color: #00bfff;
+  animation: fillBar 3s infinite linear;
+}
+
+@keyframes fillBar {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+/* Text under loader */
+.load-text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="loader-container">
+  <div class="loader-fill"></div>
+</div>
+<div class="load-text">LOAD 1×1</div>
+
+</body>
+</html>

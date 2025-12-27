@@ -6,6 +6,7 @@
 .image{
     display: flex;
     justify-content: center;
+    margin-top: 80px;
 }
 .logo{
     font-size: 20px;
@@ -25,13 +26,13 @@
     font-weight:normal;
     
 }
-.parent{
+/* .parent{
     margin-top: 70px;
     display:flex;
     justify-content: center;
-    flex-direction: row;
-}
-.text{
+    flex-direction: row; */
+
+/* .text{
     width: 599px;
     
-}
+} */

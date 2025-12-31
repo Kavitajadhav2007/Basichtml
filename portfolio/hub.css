@@ -127,6 +127,7 @@ hr {
 }
 
 .Project {
+  position : relative;
   height: 650px;
   overflow: hidden;
   margin-left: 300px;
@@ -171,6 +172,8 @@ hr {
   height: 500px;
   width: 500px;
   overflow: hidden;
+  position : relative;
+
 }
 .overlay {
   position: absolute;

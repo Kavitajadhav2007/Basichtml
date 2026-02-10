@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+  font-size: 25px;
+}
+.logo {
+}
+.nav {
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+}
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+.hero {
+  display: grid;
+  justify-content: start;
+  text-align: center;
+  /* height: 50px; */
+  margin-left: 50px;
+}
+.hero h1 {
+  font-size: 90px;
+}
+.section {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  height: 50px;
+}
+.section p {
+  font-size: 20px;
+  margin-right: 50px;
+  /* margin-top: 100px; */
+}
+.image {
+  overflow: hidden;
+  background-color: black;
+  height: 870px;
+  width: auto;
+  margin: 75px 60px 10px 60px;
+}
+.image img {
+  display: flex;
+  opacity: 1;
+  /* justify-content: center; */
+  height: 100%;
+  width: 100%;
+  /* margin-top: 70px;
+  margin-left: 200px; */
+  object-fit: cover;
+}
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 800px;
+  margin-left: 30px;
+  font-size: 45px;
+}
+.about {
+  margin-left: 50px;
+}
+.us {
+  margin-left: 1000px;
+  font-size: 30px;
+}
